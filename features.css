@@ -73,7 +73,7 @@ input {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 65vh;
+	height: 45vh;
 	background-color: rgb(0, 0, 0, 0.63);
 	background-blend-mode: darken;
 	background-image: url("./images/b1.jpeg");
@@ -90,19 +90,23 @@ input {
 }
 
 .round {
-	width: 14em;
+	width: 15em;
 	height: 15em;
 	background: white;
 	border-radius: 100%;
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	transform: translateY(5em);
+	transform: translateY(8em);
 }
 
 .round img {
 	height: 90%;
 	padding-top: 1.3em;
+}
+
+#sub-title {
+	font-weight: 700;
 }
 
 .title {

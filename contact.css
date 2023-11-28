@@ -74,7 +74,7 @@ input {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 65vh;
+	height: 100vh;
 	background-color: rgb(0, 0, 0, 0.63);
 	background-blend-mode: darken;
 	background-image: url("./images/b1.jpeg");
@@ -88,6 +88,10 @@ input {
 	0% {background-image: url("./images/b1.jpeg");}
 	50% {background-image: url("./images/b2.jpeg");}
 	100% {background-image: url("./images/1.jpeg");}
+}
+
+#sub-title {
+	font-weight: 700;
 }
 
 .title {
@@ -118,7 +122,7 @@ input {
 	100% {width: 200px;}
 }
 
-
+/*
 .login {
 	display: flex;
 	justify-content: center;
@@ -126,12 +130,12 @@ input {
 	padding: 3em;
 	background-color: #eaeaea;
 }
-
+*/
 .content {
 	display: flex;
 	width: 70%;
 	height: 70vh;
-	transform: translateY(-10em);
+	transform: translateY(5em);
 	background: white;
 	border-radius: 8px;
 	border: 1px solid grey;

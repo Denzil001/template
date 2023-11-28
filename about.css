@@ -34,8 +34,10 @@ marquee {color: white;}
 }
 
 .logo {
+	display: flex;
 	font-size: 1.5em;
 	font-weight: 900;
+	width: 75em;
 }
 
 .logo a {
@@ -44,6 +46,14 @@ marquee {color: white;}
 
 .logo span {
 	color: white;
+}
+
+#sub-title {
+	font-weight: 700;
+}
+
+.logo p {
+	font-weight: 800;
 }
 
 .items {
@@ -73,7 +83,7 @@ input {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 45vh;
+	height: 35vh;
 	background-color: rgb(0, 0, 0, 0.63);
 	background-blend-mode: darken;
 	background-image: url("./images/b1.jpeg");
